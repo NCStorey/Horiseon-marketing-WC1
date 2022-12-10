@@ -1,61 +1,71 @@
+
+/* style for entire webpage */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    
 }
 
-body {
-    background-color: #d9dcd6;
+
+
+body {/* Gives off-white background color */
+    background-color: #d7d6dc;
 }
 
-.header {
+/* Style for blue header bar and navigation */
+
+.header {/* blue bar */
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 }
 
-.header h1 {
+h1 {/* company name */
     display: inline-block;
     font-size: 48px;
 }
 
-.header h1 .seo {
+#seo {/* company name */
     color: #d9dcd6;
 }
 
-.header nav {
+.header nav {/* navigation bar */
     padding-top: 15px;
     margin-right: 20px;
     float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 20px;
+    font-size: 20px; 
 }
 
-.header nav ul {
+.header nav ul {/* navigation bar */
     list-style-type: none;
 }
 
-.header nav ul li {
+.header nav ul li {/* navigation bar */
     display: inline-block;
-    margin-left: 25px;
+    margin-left: 25px; 
 }
 
-a {
+a {/* navigation bar - link color */
     color: #ffffff;
-    text-decoration: none;
+    text-decoration: none; 
 }
 
-p {
-    font-size: 16px;
-}
 
-.background_image {
+/* main image */
+#main_image {
     height: 100%;
     width: 100%;
     margin-bottom: 25px;
     background-size: cover;
     background-position: center;
+}
+
+
+p {
+    font-size: 16px;
 }
 
 .float-left {
