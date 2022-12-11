@@ -16,19 +16,19 @@ body {/* Gives off-white background color */
 
 /* Style for blue header bar and navigation */
 
-.header {/* blue bar */
+.header {/* header - blue bar style */
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 }
 
-h1 {/* company name */
+h1 {/* header - company name */
     display: inline-block;
     font-size: 48px;
 }
 
-#seo {/* company name */
+#seo {/* header - company name */
     color: #d9dcd6;
 }
 
@@ -40,11 +40,11 @@ h1 {/* company name */
     font-size: 20px; 
 }
 
-.header nav ul {/* navigation bar */
+.header nav ul {/* navigation bar - list */
     list-style-type: none;
 }
 
-.header nav ul li {/* navigation bar */
+.header nav ul li {/* navigation bar - list */
     display: inline-block;
     margin-left: 25px; 
 }
@@ -64,8 +64,10 @@ a {/* navigation bar - link color */
     background-position: center;
 }
 
-/* main content container */
-.main {
+/* main content */
+
+
+.main {/* main content - container */
     width: 75%;
     display: inline-block;
     margin-left: 20px;
@@ -81,25 +83,25 @@ a {/* navigation bar - link color */
     color: #ffffff;
 }
 
-.float-left {/* images in main content */
+.float-left {/* main content - images */
     float: left;
     margin-right: 25px;
     max-height: 200px;
 }
 
-.float-right {/* images in main content */
+.float-right {/* main content - images */
     float: right;
     margin-left: 25px;
     max-height: 200px;
 }
 
-h2 {/* headers in main content */
+h2 {/* main content - headers */
     margin-bottom: 20px;
     font-size: 36px;
 }
 
 
-/* aside far right style */
+/* aside far right style - left as class for reuse on other pages */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -111,22 +113,22 @@ h2 {/* headers in main content */
     background-color: #2589bd;
 }
 
-.benefit-content {/* aside far right content style */
+.benefit-content {/* aside far right - content style*/
     margin-bottom: 32px;
     color: #ffffff;
 }
 
 
-h3 {/* aside far right headers*/
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-
-.benefit-content img {/* aside far right icons */
+.benefit-content img {/* aside far right - icons */
     display: block;
     margin: 10px auto;
     max-width: 150px;
+}
+
+
+h3 {/* aside far right - headers*/
+    margin-bottom: 10px;
+    text-align: center;
 }
 
 
