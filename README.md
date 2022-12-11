@@ -47,5 +47,6 @@ The main changes include
 
     - Addition of Semantic HTML to replace the previous <div> elements.
     - Html and CSS reordered to follow logical structure.
-    - alt text added to all images (acessibility).
     - Heading elements changed to fall in sequential order but retained original font size.
+    - alt text added to all images (acessibility).
+    - Title elements added to all images (acessibility).
