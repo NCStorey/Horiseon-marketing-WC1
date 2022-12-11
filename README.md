@@ -1,61 +1,51 @@
 # WC1
-Repository containing the Bootcamp week one challenge HTML
 
+Refactor of html and css for Horiseon marketing to make it easier to read/alter and better accesibility for certain users. Undertaken December 2022 for Trilogy Skills Bootcamp weekly challenge one.
 
-## Table of Contents (Optional)
-
-If your README is very long, add a table of contents to make it easy for users to find what they need.
-
-- [Installation](#installation)
-- [Usage](#usage)
-- [Credits](#credits)
-- [License](#license)
 
 ## Installation
 
-What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.
+    - Code edited on VS code
+    - Website run in browser
 
 ## Usage
 
-Provide instructions and examples for use. Include screenshots as needed.
+For use by Horiseon marketing -
 
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
+    - Allows code to be more easily read and understood with the addition of comments.
+    - Allows the code to be more easily updated in future.
+    - Allows styles to be easily transfered to other marketing materials.
+    - Addition of accesibility features (alt text) to facilitate screen readers.
 
-```md
-![alt text](assets/images/screenshot.png)
-```
 
 ## Credits
 
-List your collaborators, if any, with links to their GitHub profiles.
-
-If you used any third-party assets that require attribution, list the creators with links to their primary web presence in this section.
-
-If you followed tutorials, include links to those here as well.
+Trilogy Skills Bootcamp for the provision of the starter code. https://skillsforlife.edx.org/
 
 ## License
 
-The last section of a good README is a license. This lets other developers know what they can and cannot do with your project. If you need help choosing a license, use [https://choosealicense.com/](https://choosealicense.com/)
+PLease refer to license details contained in license document in repository. 
 
----
+## User Story
 
-🏆 The sections listed above are the minimum for a good README, but your project will ultimately determine the content of this document. You might also want to consider adding the following sections.
+AS A marketing agency
+I WANT a codebase that follows accessibility standards
+SO THAT our own site is optimized for search engines
 
-## Badges
+## Acceptance Criteria
 
-![badmath](https://img.shields.io/github/languages/top/nielsenjared/badmath)
+    - Semantic HTML elements can be found throughout the source code
+    - HTML elements follow a logical structure independent of styling and positioning
+    - Image and icon elements contain accessible alt attributes
+    - Heading attributes fall in sequential order
+    - Title elements contain a concise, descriptive title
 
-Badges aren't _necessary_, per se, but they demonstrate street cred. Badges let other developers know that you know what you're doing. Check out the badges hosted by [shields.io](https://shields.io/). You may not understand what they all represent now, but you will in time.
 
-## Features
+## Process
 
-If your project has a lot of features, consider adding a heading called "Features" and listing them there.
+The main changes include
 
-## Contributing
-
-If you created an application or package and would like other developers to contribute it, you will want to add guidelines for how to do so. The [Contributor Covenant](https://www.contributor-covenant.org/) is an industry standard, but you can always write your own.
-
-## Tests
-
-Go the extra mile and write tests for your application. Then provide examples on how to run them.
-
+    - Addition of Semantic HTML to replace the previous <div> elements.
+    - Html and CSS reordered to follow logical structure.
+    - alt text added to all images (acessibility).
+    - Heading elements changed to fall in sequential order but retained original font size.
